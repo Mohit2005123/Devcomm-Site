@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.laptopSlideContainer > .slick-slider .slick-track {
+    display: flex;
+    align-items: center;
+    height : 300px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.slick-slider .slick-slide {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+    outline : none !important;
+    height: auto;
+}
+
+.laptopSlideContainer > .slick-slider .slick-slide.slick-current,
+.slick-slider .slick-slide.slick-center {
+    transform: scale(1.4);
+    border-radius: 20px;
+}
+
+.laptopSlideContainer > .slick-slide, .slick-active{
+    background-color: transparent;
+}
+
+

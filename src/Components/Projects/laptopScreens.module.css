@@ -1,0 +1,28 @@
+.slide-container{
+    width : 200 !important;
+    height : 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-container img{
+    width: auto;
+    height: 190px;
+    object-fit: cover;
+    border-radius : 10px;
+}
+
+@media (max-width : 620px){
+    .slide-container img{
+        height: 150px;
+    }
+}
+
+@media (max-width : 460px){
+    .slide-container img{
+        height: 120px;
+    }
+}

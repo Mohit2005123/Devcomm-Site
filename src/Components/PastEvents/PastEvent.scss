@@ -1,0 +1,74 @@
+.container{
+    width: 98%;
+    height: auto;
+    margin: 45px auto;
+    margin-top: 10px;
+    text-align: justify;
+}
+.item-container{
+    padding-bottom: 50px;
+}
+
+.title {
+    color: #99a7d9;
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 1px solid #99a7d9;
+    padding: 5px 60px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    width: 92.25%;
+    margin: auto;
+    background-color: black;
+    border-radius: 7px;
+    color: aliceblue;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    margin-top: 100px;
+    z-index: 1000;
+}
+.card-container>img{
+    border: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: -100px;
+    z-index: 1001;
+}
+.card-container .event-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+.card-container .event-container .event-name{
+    font-size: 34px;
+}
+.card-container .event-container .event-desc{
+    font-size: 18px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .card-container{
+        height: auto;
+        padding-bottom: 40px;
+    } 
+}
+@media screen and (max-width: 700px) {
+    .arrow{
+        display: none;
+    }
+    .card-container{
+        padding: 30px;
+        padding-bottom: 50px;
+    } 
+}

@@ -1,0 +1,9 @@
+.title {
+    padding: 50px 40px;
+    color: #99a7d9;
+    font-size: 2.5rem;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #99a7d9;
+}

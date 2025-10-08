@@ -1,0 +1,27 @@
+.buttons-container {
+    background-color: rgba(255, 255, 255, 0.75);
+    box-sizing: border-box;
+    border-radius: 200px;
+
+}
+
+.button {
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 55%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #0471acc9;
+    margin-right: -8%;
+}
+
+@media screen and (min-width: 992px) {
+    .buttons-container {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}

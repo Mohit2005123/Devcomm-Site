@@ -1,0 +1,22 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    background-color: #09091de8;
+    z-index: 4;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.logo-container {
+    height: 40px;
+}
+
+.logo {
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,127 @@
+/* .heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+@media (max-width : 768px) {
+    .frame-container {
+        display: none;
+    }
+}
+
+@media (max-width : 640px) {
+    .frame-container {
+        display: block;
+    }
+}
+
+
+
+.frame-container {
+    width: 300px;
+    height: 576px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    z-index: 4;
+}
+
+.frame {
+    width: 100%;
+    height: 100%;
+} */
+
+/* 1) Wrap Swiper + frame so we can absoluteposition the frame */
+/* 1. Wrap everything so the frame & slides can overlap */
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: visible; /* show slides outside bounds for coverflow */
+  padding-bottom: 2rem;
+}
+
+/* your heading */
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* 2. Make each slide a fixed size (matches frame) */
+.slide {
+  width: 280px !important;    /* interior width of your frame PNG */
+  height: 540px !important;   /* interior height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 3. Fill that slide box completely with the screenshot */
+.slideImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;        /* optional to match your design */
+}
+
+/* 4. Center the frame exactly over the center slide */
+.frameContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;    /* outer PNG size */
+  height: 576px;   /* outer PNG size */
+  transform: translate(-50%, -50%);
+  pointer-events: none;  /* so you can still swipe through it */
+  z-index: 10;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 5. Responsive show/hide just like before */
+@media (max-width: 768px) {
+  .frameContainer {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .frameContainer {
+    display: block;
+  }
+}
+/* instead of centering vertically, push down a bit */
+.swiper-slide {
+  display: flex;
+  align-items: flex-start;   /* start at top of the slide box */
+  justify-content: center;
+  padding-top: 20px;         /* bring the content down by 20px */
+}
+
+/* if you’d rather only move the image itself */
+.slideImage {
+  position: relative;
+  top: 20px;                 /* move it down by 20px */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
