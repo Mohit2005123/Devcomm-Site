@@ -45,7 +45,7 @@ const Navbar1 = () => {
             </Nav.Link>
             <Nav.Link className={`text-light ms-3`} href="/about">About</Nav.Link>
             <Nav.Link className={`text-light ms-3`} href="/activities">Activities</Nav.Link>
-            <Nav.Link className={'text-light ms-3 rounded-pill border border-2 border-primary pt-0 pb-0 ps-3 pe-3 text-center'} href="/register" >Join <span className={`text-primary`}>DevComm</span></Nav.Link>
+            {/* Register link removed */}
           </Nav>
         </Navbar.Collapse>
       </Container>

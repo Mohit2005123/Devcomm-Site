@@ -1,5 +1,4 @@
 import About from "./Pages/About";
-import Register from "./Pages/Register";
 import Navbar1 from "./Components/Navbar/Navbar";
 import WallOfFame from "./Pages/WallOfFame";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -23,7 +22,6 @@ const App = () => {
         <Route path="/activities" element={<Activities />} />
         <Route path="about" element={<About />} />
         <Route path="about/walloffame" element={<WallOfFame />} />
-        <Route path="register" element={<Register />} />
         <Route path="createfornsut" element={<CFN />} />
         <Route path="welcome" element={<SuccessPage />} />
         <Route path="privacy" element={<PrivacyPolicy />} />

@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Typography, Card, Box, CardContent, CardMedia } from "@mui/material";
-import { width } from "@mui/system";
 
 export default class AutoPlay extends Component {
   render() {

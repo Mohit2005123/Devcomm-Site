@@ -1,7 +1,5 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
-import techxlogo from '../../Assets/Images/techxlogo.png'
 import devweek from '../../Assets/Images/devweek.png'
 import techxp from '../../Assets/Images/techx-p.png'
 import techxc from '../../Assets/Images/techx-c.png'
@@ -131,8 +129,8 @@ const Events = (props) => {
                     backgroundColor: 'black'
                 }
             }} 
-                NextIcon={<img src={leftarrow} className="arrow" width="45px" style={{transform: "rotate(180deg)",opacity: "1", display: (typeof window !== 'undefined')? (window.innerWidth > 700 ? "block" : "none" ) : "block"}}/>}
-                PrevIcon={<img src={leftarrow} className="arrow" width="45px"/>}
+                NextIcon={<img src={leftarrow} alt="next" className="arrow" width="45px" style={{transform: "rotate(180deg)",opacity: "1", display: (typeof window !== 'undefined')? (window.innerWidth > 700 ? "block" : "none" ) : "block"}}/>}
+                PrevIcon={<img src={leftarrow} alt="previous" className="arrow" width="45px"/>}
             >
                 {
                     items.map( (item, i) => <Item key={i} item={item} /> )

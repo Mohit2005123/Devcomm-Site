@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useState } from "react";
 
 const SuccessSection = () => {
-    const [hasPaid, setHasPaid] = useState(true);
-    const [searchParams] = useSearchParams();
+    const [hasPaid] = useState(true);
     // useEffect(() => {
     //     const verifyPayment = async () => {
     //         const paymentId = searchParams.get('payment_id');
