@@ -1,5 +1,5 @@
 import { Container, Image } from 'react-bootstrap';
-import jcImage from '../../Assets/Images/devcomm_bg.jpg'
+import jcImage from '../../Assets/Images/devcomm_bg.png'
 import styles from './IntroductionBackground.module.css';
 
 const IntroductionBackground = () => {

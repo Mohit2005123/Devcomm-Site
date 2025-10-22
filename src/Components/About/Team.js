@@ -9,7 +9,7 @@ const Team = () => {
     return (
         <Element id='team' fluid className={`p-4 border-top`}>
             <div className={`d-flex align-items-center justify-content-center`}>
-                <h1 className={`fw-bold text-center ${styles['title']}`}>Core Team '24</h1>
+                <h1 className={`fw-bold text-center ${styles['title']}`}>Core Team '25</h1>
             </div>
 
             <Row style={{justifyContent: 'center'}}>

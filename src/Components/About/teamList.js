@@ -5,59 +5,65 @@
 // import dhruvG from '../../Assets/Images/Core-Images/DhruvGarg_VIcePresident.jpg'
 // import chirag from '../../Assets/Images/Core-Images/chirag_singhal_pres.jpg'
 
-const santosh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662580/santosh_pal_j0jbfl.png";
-const dipanshu = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662577/deepanshu_bisariya_qvu0rj.jpg";
-const saharsh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662577/saharsh_tepnon.jpg";
-const samriddh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662577/samriddh_diwan_gvr0lo.jpg";
-const seldon = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662577/seldon_m1jbhc.jpg";
-const piyush = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662576/piyush_sinha_yggeid.jpg";
-const rashid = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662576/rashid_siddiqui_t0zvah.jpg";
-const shiv = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662575/tg_shivkumar_jyczcb.jpg";
-const mohit = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662575/mohit_etevtz.jpg";
-const kashish = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662575/kashish_jangra_c19zkz.jpg";
-const ojas = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662575/ojas_sharma_yyf2ia.jpg";
-const kavish = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662575/kavish_dham_flpr0k.jpg";
-const atul = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662574/Atul_Kumar_me4vzu.jpg";
-const ishita = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662574/ishita_srivastava_akmt43.jpg";
-const ayush_a = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662574/ayush_arora_bolkqg.jpg";
-const gauri = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662573/gauri_bhardwaj_ns0lll.png";
-const ashutosh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662573/ashutosh_jha_yg8jm3.jpg";
-const anirudh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662573/anirudh_prajapati_y4tlx2.jpg";
-const akhil = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662572/akhil_sfjmxl.jpg";
-const abhinav = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662572/abhinav_diwakar_qgoyld.jpg";
-const divyansh = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662572/divyansh_sharma_mnerwe.jpg";
-const divye = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662572/divye_bajaj_lhqyxu.jpg";
-const yash = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662571/yash_eyya6e.jpg";
-const chirag = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662570/chirag_singhal_pres_dmy9lf.jpg";
-const vasu = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662570/vasu_asi0aj.jpg";
-const shreya = "https://res.cloudinary.com/dop36g38s/image/upload/v1723662569/shreya_wsuluk.jpg";
+const dhruvs = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443704/IMG_20250702_235500_-_DHRUV_SHARMA_i1y14i.jpg";
+const kushagra = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443703/f245519128_-_KUSHAGRA_SABHARWAL_wsxeyx.jpg";
+const krishna = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443703/IMG_5078_-_KRISHNA_BANSAL_lcek27.jpg";
+const manya = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443700/IMG_2171_-_MANYA_JAIN_rn0kkg.jpg";
+const dhruvg = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443704/1_2_-_DHRUV_GULIA_e4imxx.jpg";
+const madhav = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443700/IMG_8296_-_MADHAV_GARG_1_jz15qg.jpg";
+const piyush = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443690/20250417_124119_2_-_PIYUSH_kkuz3l.png";
+const shatakshi = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443705/1751566769578_-_SHATAKSHI_SINHA_hy6k7d.jpg";
+const rishabh = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443693/IMG_6712_-_RISHABH_JAIN_l9drns.jpg";
+const pragyan = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443704/WhatsApp_Image_2025-07-04_at_01.19.58_989b5a63_-_PRAGYAN_CHAUHAN_fvmnif.jpg";
+const shubham = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443699/IMG_20250424_165352_930_-_SHUBHAM_er2pic.jpg";
+const suyash = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760874230/1751849573922_dwuet9.jpg";
+const leisha = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760873955/linkdin_rrd2jg.jpg";
+const sanvi = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443705/sanvi_kwatra_ppz2cc.jpg";
+const anushree = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760874273/1738522205504_irzjti.jpg";
+const khushi = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443701/Untitled_design_-_KHUSHI_KUMARI_uc5t85.png";
+const dhanu = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443707/20250702_200627_-_DHANU_BANSAL_f2sxhr.jpg";
+const manik = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443702/IMG_20250630_230449_-_MANIK_DHIMAN_fywgkz.jpg";
+const ajeem = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443706/IMG-20240309-WA0041_-_AJEEM_AHMAD_gphzn1.jpg";
+const mohit = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443700/IMG-20250701-WA0001_-_MOHIT_MAULEKHI_1_xeyiqa.jpg";
+const suryansh = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443695/IMG-20250630-WA0020_-_SURYANSH_MALHOTRA_ujeq28.jpg";
+const harshit = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443690/IMG_1956_-_HARSHIT_GUPTA_k45sed.jpg";
+const dhruvsa = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443703/IMG-20241111-WA0114_-_DHRUV_GARG_SARIA_au9ahy.jpg";
+const aman = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443694/WhatsApp_Image_2025-06-30_at_19.59.13_-_AMAN_GARG_qxaiqa.jpg";
+const raman = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443694/WhatsApp_Image_2025-04-11_at_5.38.18_PM_-_RAJ_RAMAN_ngmcfy.jpg";
+const mongia = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443690/IMG_3068_-_MOHIT_MONGIA_is5mjv.jpg";
+const pawni = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443687/pic_-_PAWNI_YADAV_bwrndf.png";
+const dia = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443702/IMG-20250526-WA0190_-_DIA_JAINN_mbmpn9.jpg";
+const rachit = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443703/IMG_20241226_150145_212_-_RACHIT_JAIN_gmnnu7.webp";
+const riya = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443699/riya_arya_qnqehu.jpg";
+const ayush = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443699/photo_6235515576139235900_y_-_AYUSH_THAKUR_kucvyt.jpg";
+const nandini = "https://res.cloudinary.com/dlokvjwvl/image/upload/v1760443700/IMG_2537_Original_-_NANDINI_JAJORIA_tgvzkb.jpg";
 
 
 const teamList = [
     {
-        name: 'Chirag Singhal',
+        name: 'Dhruv Sharma',
         position: 'President',
-        image: chirag
+        image: dhruvs
     },
     {
-        name: 'Anirudh Prajapati',
+        name: 'Kushagra Sabharwal',
         position: 'President',
-        image: anirudh
+        image: kushagra
     },
     {
-        name: 'Kavish Dham',
+        name: 'Krishna Bansal',
         position: 'Vice President',
-        image: kavish
+        image: krishna
     },
     {
-        name: 'Seldon Angmo',
+        name: 'Manya Jain',
         position: 'Vice President',
-        image: seldon
+        image: manya
     },
     {
-        name: 'Akhil Marks',
+        name: 'Dhruv Gulia',
         position: 'Vice President',
-        image: akhil
+        image: dhruvg
     },
     // {
     //     name: 'Manvi Singh',
@@ -70,89 +76,119 @@ const teamList = [
     //     image: 'https://res.cloudinary.com/dk96zf8ho/image/upload/v1693651879/Bhavya_Jain_Production_Head_Content_a0wrtd.jpg'
     // },
     {
-        name: 'Piyush Sinha',
+        name: 'Madhav Garg',
+        position: 'General Secretary',
+        image: madhav
+    },
+    {
+        name: 'Piyush',
         position: 'General Secretary',
         image: piyush
     },
     {
-        name: 'Gauri Bhardwaj',
+        name: 'Shatakshi Sinha',
         position: 'General Secretary',
-        image: gauri
+        image: shatakshi
     },
     {
-        name: 'Santosh Pal',
+        name: 'Rishabh Jain',
         position: 'JT. General Secretary',
-        image: santosh
+        image: rishabh          
     },
     {
-        name: 'Saharsh',
+        name: 'Pragyan Chauchan',
         position: 'JT. General Secretary',
-        image: saharsh
+        image: pragyan
     },
     {
-        name: 'Shreya Garg',
-        position: 'Women in Tech Head',
-        image: shreya,
+        name: 'Shubham',
+        position: 'JT. General Secretary',
+        image: shubham
     },
     {
-        name: "Vasu Goel",
-        position: "Operations Head",
-        image: vasu,
+        name: 'Suyash Shrivastva',
+        position: 'Production Head',
+        image: suyash,
     },
     {
-        name: "Mohit Shekhawat",
-        position: 'Operations Head',
+        name: 'Leisha Ambwani',
+        position: 'Production Head',
+        image: leisha,
+    },
+    {
+        name: 'Sanvi Kwatra',
+        position: 'Graphic Design Head',
+        image: sanvi,
+    },
+    {
+        name: 'Anushree Roy',
+        position: 'Graphic Design Head',
+        image: anushree,
+    },
+    {
+        name: "Khushi Kumari",
+        position: "Content Head",
+        image: khushi,
+    },
+    {
+        name: "Dhanu Bansal",
+        position: 'DSA Head',
+        image: dhanu
+    },
+    {
+        name: 'Manik Dhiman',
+        position: 'DSA Head',
+        image: manik
+    },
+    {
+        name: 'Ajeem Ahmed',
+        position: 'App Dev Head',
+        image: ajeem
+    },
+    {
+        name: 'Mohit Maulekhi',
+        position: 'App Dev Head',
         image: mohit
     },
     {
-        name: 'Atul Kumar',
-        position: 'Web Dev Head',
-        image: atul
-    },
-    {
-        name: 'Abhinav Diwakar',
-        position: 'App Dev Head',
-        image: abhinav
-    },
-    {
-        name: 'Ojas Sharma',
-        position: 'Web Dev Head',
-        image: ojas
-    },
-    {
-        name: 'Ashutosh Jha',
-        position: 'App Dev Head',
-        image: ashutosh
-    },
-    {
-        name: 'Rashid Siddiqui',
+        name: 'Suryansh Malhotra',
         position: 'ML Head',
-        image: rashid
+        image: suryansh
     },
     {
-        name: 'Ishita Srivastava',
+        name: 'Harshit Gupta',
         position: 'ML Head',
-        image: ishita
+        image: harshit
     },
     {
-        name: 'Samriddh Diwan',
-        position: 'DSA Head',
-        image: samriddh
+        name: 'Dhruv Garg Saria',
+        position: 'Operation Head',
+        image: dhruvsa
     },
     {
-        name: 'T.G Shivkumar',
-        position: 'DSA Head',
-        image: shiv
+        name: 'Aman Garg',
+        position: 'Operation Head',
+        image: aman
     },
     {
-        name: 'Divye Bajaj',
-        position: 'Video Editing Head',
-        image: divye
+        name: 'Raj Raman',
+        position: 'Web Dev Head',
+        image: raman
     },
     {
-        name: 'Ayush Arora',
-        position: 'Graphic Design Head',
-        image: ayush_a
+        name: 'Mohit Mongia',
+        position: 'Web Dev Head',
+        image: mongia
+    },
+    {
+        name: 'Pawni Yadav',
+        position: 'Women in Tech',
+        image: pawni
+    },
+    {
+        name: 'Dia Jain',
+        position: 'Women in Tech',
+        image: dia
     },
     // {
     //     name: 'Rishnak',
@@ -161,9 +197,9 @@ const teamList = [
     // },
     
     {
-        name: 'Kashish Jangra',
-        position: 'Senior Developer',
-        image: kashish
+        name: 'Rachit Jain',
+        position: 'Senior Execomm',
+        image: rachit
     },
     // {
     //     name: 'Chirag Saini',
@@ -191,19 +227,19 @@ const teamList = [
     //     image:kashish
     // },
     {
-        name: 'Yash',
+        name: 'Riya Arya',
         position: 'Senior Execomm',
-        image: yash
+        image: riya
     },
     {
-        name: 'Divyansh Sharma',
-        position: 'Senior Execomm',
-        image: divyansh
+        name: 'Ayush Thakur',
+        position: 'Senior Developer',
+        image: ayush
     },
     {
-        name: 'Deepanshu Bisariya',
-        position: 'Senior Execomm',
-        image: dipanshu
+        name: 'Nandini Jajoria',
+        position: 'Senior Developer',
+        image: nandini
     },
     // {
     //     name: 'Amanpreet Singh',

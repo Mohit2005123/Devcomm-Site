@@ -7,7 +7,7 @@ import techxi from '../../Assets/Images/techx-i.png'
 import qickstart from '../../Assets/Images/qickstart.jpg'
 import createfornsut from '../../Assets/Images/createfornsut.png'
 import codecharades from '../../Assets/Images/codecharades.png'
-import codeunknown from '../../Assets/Images/codeunknown.png'
+import codecombat from '../../Assets/Images/code-combat.png'
 import techromatic from '../../Assets/Images/techromatic.png'
 import orientation from '../../Assets/Images/orientation.png'
 import gsoc from '../../Assets/Images/gsoc.jpg'
@@ -16,6 +16,13 @@ import leftarrow from '../../Assets/Images/leftarrow.png'
 import innovate from '../../Assets/Images/innovate.jpg'
 import pongwars from '../../Assets/Images/ponwars.jpg'
 import roadtodsa from '../../Assets/Images/roadtodsa.jpg'
+import blitzkrieg from '../../Assets/Images/blitzkrieg.png'
+import techroast from '../../Assets/Images/tech-roast.png'
+import missiondecrypt from '../../Assets/Images/mission-decrypt.png'
+import innovatensut from '../../Assets/Images/innovate-nsut.png'
+import avinya from '../../Assets/Images/avinya.png'
+import devweeks from '../../Assets/Images/dev-week.png'
+import intaglios from '../../Assets/Images/intaglios.png'
 import "./PastEvent.scss"
 import Item from "./EventCard"
 
@@ -23,9 +30,9 @@ const Events = (props) => {
     const hasWindow = typeof window !== 'undefined';
     var items = [
         {
-            name: "XeroCrypt",
-            description: "Xerocrypt, a 24-hour cryptic hunt held from August 26 to 27, witnessed 500+ participants engaging in deciphering intricate codes. A true test of wit and perseverance, Xerocrypt brought out the best in everyone who dared to crack the cryptic challenge and helped channel their inner Sherlock making it an unforgettable intellectual showdown. The event proved to be highly challenging, culminating in winners claiming prizes worth 40k            ",
-            logo: devweek
+            name: "Dev Week",
+            description: "Dev Week is DevComm NSUT’s flagship week-long celebration of technology, packed with coding contests, workshops, design and content events — giving students a chance to learn, compete, and showcase their skills across multiple domains.",
+            logo: devweeks
         },
         {
             name: "ROAD TO DSA",
@@ -34,18 +41,18 @@ const Events = (props) => {
         },
         {
             name: "INNOVATE NSUT",
-            description: "Innovate NSUT was a 7 themed hackathon that was held on 5th and 6th April, 2023 for a duration of 30 hours. The event witnessed 1000+ registrations from teams all over India and 50 teams made it to the final round. The winners were awarded from a prize pool worth 5 lacs. The hackathon turned out to be a brilliant opportunity for participants to showcase their innovative spirit and polish their technical skills.     ",
-            logo: innovate
+            description: "Innovate is DevComm NSUT’s flagship hackathon, where students collaborate in teams to develop creative solutions for real-world college challenges, combining innovation, mentorship, and competitive pitching to showcase their ideas.",
+            logo: innovatensut
         },
         {
-            name: "PONG WAR",
-            description: "A fun Pong Wars event that combined skills and companionship was organised by DevComm during Freshers Week 22. Teams competed to successfully place ping pong balls into cups, showcasing their skill. The occasion promoted networking and friendly competition in a fun environment. While embracing the competitive atmosphere of Freshers' Week 22, participants had the chance to relax and interact with their peers         ",
-            logo: pongwars
+            name: "Avinya'25",
+            description: "Witnessed various revolutionary prototypes as students pushed the boundaries of technology in a 24 hour hackathon, problems incorporating web3, bluetooth mesh network, NFT marketplace, AI powered canteens, and digital forensics.",
+            logo: avinya
         },
         {
-            name: "TECHX - PSYCHOTECH TECH QUIZ",
-            description: "With technological jargon in hand, come on in quizzers! We're here with PsychoTech, a tech quiz that starts where your thinking stops! We'd be seeing some pro players show off from all over the Delhi circuit. The quiz will take place on April 8th, and there will be some fantastic prizes up for grabs. Participate and let your intellect bring you awards!",
-            logo: techxp
+            name: "Blitzkrieg",
+            description: "Blitzkreig is a fast-paced coding or competitive programming event by DevComm NSUT, where participants solve challenging problems under strict time limits, testing speed, accuracy, and algorithmic skills.",
+            logo: blitzkrieg
         },
         {
             name: "TECHX - CODE WARS",
@@ -53,9 +60,9 @@ const Events = (props) => {
             logo: techxc
         },
         {
-            name: "TECHX - INNOVATE NSUT",
-            description: "Hola Geeks, Allow your creativity to bring ideas into action! We're returning with a bang, balancing your days and nights with a 24-hour offline hackathon - Innovate NSUT! The competition will be held on the 9th and 10th of April. Participants and winners will receive wonderful prizes from a prize pool of INR 6 lacs. as well as the opportunity to display their unique abilities with technology in their hands. Prepare yourself and your computers for a fantastic event worth attending.",
-            logo: techxi
+            name: "Intaglios",
+            description: "Intaglios is DevComm NSUT’s annual tech‑creative fest, featuring a mix of competitions, workshops, and showcases that blend coding, design, and innovation, celebrating student talent across multiple domains.",
+            logo: intaglios
         },
         {
             name: "QICKSTART - QISKIT FALL FEST",
@@ -68,19 +75,19 @@ const Events = (props) => {
             logo: createfornsut
         },
         {
-            name: "CODE CHARADES",
-            description: "Have you ever imagined a place where you could combine code and one of the most popular social word guessing games? We give our word for it, for coding for the sake of having a blast could be liberating. This Moksha, DevComm introduced to you 'Code Charades', a 3-5 member team event on Day 3 of the fest. Essentially a debugging competition, you'll be racing against the clock to generate output data types that lead to movie/song clues and might fetch you a well-deserved victory. Prizes worth INR 4k pooled in.",
-            logo: codecharades
+            name: "Tech Roast",
+            description: "Tech Roast is a quirky DevComm NSUT event where participants humorously “roast” trending technologies, tools, or concepts — mixing wit with tech knowledge to create a fun, engaging community activity.",
+            logo: techroast
         },
         {
-            name: "CODE UNKNOWN",
-            description: "To give you a peek into what our society has to offer, DevComm is bringing to you, “Code Unknown”. But wait - you know what the best part is? There are no prerequisites or technical know how, since all the documentation about the language will be given before the start of the competition. ",
-            logo: codeunknown
+            name: "Code Combat",
+            description: "CodeCombat — a gamified platform that makes learning coding and DSA fun through interactive gameplay, where players write real code to progress, solve challenges, and build problem-solving skills.",
+            logo: codecombat
         },
         {
-            name: "TECHROMATIC",
-            description: "Techchromatic - a Tech/Pop culture quiz for the freshers week of batch 2025. The quiz consists of multiple rounds with teams competing against each other under time pressure. Get the feel of a real quizzing environment. Don’t try to cheat because the quiz master is very smart and knows what all is happening and takes note of it. ",
-            logo: techromatic
+            name: "Mission Decrypt",
+            description: "Mission Decrypt is a cybersecurity and cryptography‑themed challenge by DevComm NSUT, where participants decode encrypted messages or solve security puzzles, honing problem-solving and hacking skills in a competitive setup.",
+            logo: missiondecrypt
         },
         {
             name: "ORIENTATION",
@@ -99,42 +106,104 @@ const Events = (props) => {
         }
     ]
 
+    const containerStyle = {
+        padding: '40px 20px',
+        maxWidth: '1200px',
+        margin: '0 auto',
+        background: 'linear-gradient(180deg, #0f172a, #1e293b)',
+        borderRadius: '16px',
+        boxShadow: '0 8px 30px rgba(0, 0, 0, 0.6)',
+        marginBottom: '80px'
+    }
+
+    const titleStyle = {
+        fontSize: '2.6rem',
+        fontWeight: '700',
+        color: '#e2e8f0',
+        textAlign: 'center',
+        marginBottom: '40px',
+        letterSpacing: '-0.5px',
+        fontFamily: 'Raleway, sans-serif'
+    }
+
+    const slideOuter = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '30px',
+        background: 'rgba(30, 41, 59, 0.85)',
+        borderRadius: '16px',
+        boxShadow: '0 10px 35px rgba(0,0,0,0.5)',
+        minHeight: '300px',
+        transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+    }
+
+    const logoStyle = {
+        maxWidth: '220px',
+        maxHeight: '180px',
+        objectFit: 'contain',
+        marginRight: '35px',
+        borderRadius: '12px',
+        boxShadow: '0 4px 14px rgba(255,255,255,0.05)'
+    }
+
+    const descStyle = {
+        fontSize: '1.05rem',
+        lineHeight: 1.7,
+        color: '#cbd5e1',
+        fontFamily: 'Inter, sans-serif'
+    }
+
+    const nameStyle = {
+        fontSize: '1.5rem',
+        fontWeight: '600',
+        color: '#f8fafc',
+        marginBottom: '10px'
+    }
+
     return (
-        <div id='pastevents' className='container'>
-            <div className={`d-flex align-items-center justify-content-center`}>
-                <h1 className={`title fw-bold`}>Past Events</h1>
-            </div>
+        <div id='pastevents' style={containerStyle}>
+            <h1 style={titleStyle}>Past Events</h1>
             <Carousel
-            navButtonsAlwaysVisible={hasWindow ? window.innerWidth<700?false:true : true}     
-            navButtonsAlwaysInvisible={hasWindow ?window.innerWidth<700?true:false : false}
-            activeIndicatorIconButtonProps={{
-                style: {
-                    backgroundColor: 'gray'
-                }
-            }}
-            indicatorIconButtonProps={{
-                style: {
-                    padding: '1px',    //
-                    color: 'white'       
-                }
-            }}
-            indicatorContainerProps={{
-                style: {
-                    marginTop: '50px', // 
-                }
-        
-            }}
-            navButtonsProps={{          
-                style: {
-                    backgroundColor: 'black'
-                }
-            }} 
-                NextIcon={<img src={leftarrow} alt="next" className="arrow" width="45px" style={{transform: "rotate(180deg)",opacity: "1", display: (typeof window !== 'undefined')? (window.innerWidth > 700 ? "block" : "none" ) : "block"}}/>}
-                PrevIcon={<img src={leftarrow} alt="previous" className="arrow" width="45px"/>}
+                animation="slide"
+                duration={700}
+                autoPlay={true}
+                interval={3500}
+                swipe={true}
+                cycleNavigation={true}
+                navButtonsAlwaysVisible={true}
+                navButtonsAlwaysInvisible={false}
+                indicatorIconButtonProps={{
+                    style: { padding: '6px', color: '#475569' }
+                }}
+                activeIndicatorIconButtonProps={{
+                    style: { color: '#60a5fa' }
+                }}
+                indicatorContainerProps={{
+                    style: { marginTop: '30px', textAlign: 'center' }
+                }}
+                navButtonsProps={{
+                    style: {
+                        backgroundColor: 'rgba(255,255,255,0.08)',
+                        borderRadius: '50%',
+                        boxShadow: '0 4px 10px rgba(0,0,0,0.4)',
+                        transition: 'background-color 0.3s ease'
+                    }
+                }}
+                NextIcon={<img src={leftarrow} alt="next" width="42px" style={{ transform: "rotate(180deg)" }} />}
+                PrevIcon={<img src={leftarrow} alt="previous" width="42px" />}
             >
-                {
-                    items.map( (item, i) => <Item key={i} item={item} /> )
-                }
+                {items.map((item, i) => (
+                    <div key={i} style={slideOuter}>
+                        <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '25px' }}>
+                            <img src={item.logo} alt={item.name} style={logoStyle} />
+                            <div style={{ flex: 1, minWidth: '260px' }}>
+                                <h3 style={nameStyle}>{item.name}</h3>
+                                <p style={descStyle}>{item.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </Carousel>
         </div>
     )
