@@ -26,7 +26,7 @@ import intaglios from '../../Assets/Images/intaglios.png'
 import "./PastEvent.scss"
 import Item from "./EventCard"
 
-const Events = (props) => {
+const PastEvent = ({ id }) => {
     const hasWindow = typeof window !== 'undefined';
     var items = [
         {
@@ -162,7 +162,7 @@ const Events = (props) => {
     }
 
     return (
-        <div id='pastevents' style={containerStyle}>
+        <section id={id} style={containerStyle}>
             <h1 style={titleStyle}>Past Events</h1>
             <Carousel
                 animation="slide"
@@ -205,8 +205,8 @@ const Events = (props) => {
                     </div>
                 ))}
             </Carousel>
-        </div>
+        </section>
     )
 }
 
-export default Events;
+export default PastEvent;

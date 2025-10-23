@@ -2,21 +2,49 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import Logo from "../../Assets/Images/DevcommLogo.png";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import * as Scroll from 'react-scroll';
+// import * as Scroll from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar1 = () => {
   const navigate = useNavigate();
-  const scroller = Scroll.scroller;
+  // const scroller = Scroll.scroller;
 
+  // const clickHandler = (section) => {
+  //   // try smooth scroll first; if that fails (different route) fallback to navigating to the section hash
+  //   try {
+  //     scroller.scrollTo(section, { smooth: true, duration: 400, offset: -70 });
+  //   } catch (e) {
+  //     navigate(`/#${section}`);
+  //   }
+  // }
+  // const clickHandler = (section) => {
+  //   if (window.location.pathname === "/") {
+  //     // Already on landing, just scroll
+  //     scroller.scrollTo(section, { smooth: true, duration: 400, offset: -70 });
+  //   } else {
+  //     // Navigate to home with hash
+  //     navigate(`/#${section}`);
+  //   }
+  // };
   const clickHandler = (section) => {
-    // try smooth scroll first; if that fails (different route) fallback to navigating to the section hash
-    try {
-      scroller.scrollTo(section, { smooth: true, duration: 400, offset: -70 });
-    } catch (e) {
-      navigate(`/#${section}`);
+    const el = document.getElementById(section);
+  
+    if (window.location.pathname === "/") {
+      // Wait a tick so DOM is ready
+      setTimeout(() => {
+        const target = document.getElementById(section);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 50);
+    } else {
+      // Navigate to home with hash; Home.js will handle scroll
+      window.location.href = `/#${section}`;
     }
-  }
+  };
+  
+  
+  
 
   return (
     <Navbar
@@ -38,7 +66,7 @@ const Navbar1 = () => {
               <img src={Logo} alt="DevComm Logo" style={{ height: 44, width: 'auto', objectFit: 'contain' }} />
             </Link>
             <div>
-              <h5 className={`m-0 text-light fw-bold`} style={{ letterSpacing: 0.4 }}>DevComm</h5>
+              <h5 className={`m-0 text-light fw-bold`} style={{ letterSpacing: 0.4, color:'#7eeaf9' }}>DevComm</h5>
               <small className="text-muted" style={{ fontSize: 12 }}>NSUT Community</small>
             </div>
           </div>
@@ -86,3 +114,6 @@ const Navbar1 = () => {
 }
 
 export default Navbar1;
+
+
+

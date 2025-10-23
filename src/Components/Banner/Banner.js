@@ -1,11 +1,12 @@
 import video from '../../Assets/Images/Banner/video.mp4';
 import styles from './Banner.module.css';
-const Banner = () => {
+const Banner = ({id}) => {
+
     return (
-        <div className={styles['banner-container']}>
+        <section id={id} className={styles['banner-container']}>
             <video className={styles['banner']} autoPlay muted src={video}>
             </video>
-        </div>
+        </section>
     );
 };
 
