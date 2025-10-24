@@ -53,10 +53,14 @@ const Navbar1 = () => {
       className={`w-100 ${styles.navbar} shadow-sm`}
       sticky="top"
       style={{
-        background: 'linear-gradient(90deg, rgba(20,25,50,0.98), rgba(40,55,85,0.95))',
-        paddingTop: 8,
-        paddingBottom: 8,
-        boxShadow: '0 2px 10px rgba(0, 0, 0, 0.3)'
+        fontFamily: 'Poppins, sans-serif',
+          background: 'rgba(6,11,34,0.92)', // Same as page, slightly frosted for elegance
+          backdropFilter: 'blur(10px)', // Glassmorphism
+          color: '#e0e8f3',
+          borderTop: '1.5px solid rgba(255,255,255,0.12)',
+          boxShadow: '0 -2px 32px rgba(59,130,246,0.08)',
+          minHeight: 110,
+          marginTop: 0
       }}
     >
       <Container fluid className={`m-0 px-3`}>
@@ -75,36 +79,151 @@ const Navbar1 = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-0 align-items-lg-center pe-2" style={{ fontSize: '17px', gap: 8 }}>
-            <Nav.Link className={`text-light ms-2`} as="div">
-              <button
-                onClick={() => clickHandler('projects')}
-                className={`btn btn-link p-0 text-decoration-none text-white`}
-                style={{ fontSize: 17, textShadow: '0 1px 3px rgba(30, 60, 150, 0.5)' }}
-              >
-                Projects
-              </button>
-            </Nav.Link>
-            <Nav.Link className={`text-light ms-2`} as="div">
-              <button
-                onClick={() => clickHandler('cfn')}
-                className={`btn btn-link p-0 text-decoration-none text-white`}
-                style={{ fontSize: 17, textShadow: '0 1px 3px rgba(30, 60, 150, 0.5)' }}
-              >
-                Create for NSUT
-              </button>
-            </Nav.Link>
-            <Nav.Link className={`text-light ms-2`} as="div">
-              <button
-                onClick={() => clickHandler('pastevents')}
-                className={`btn btn-link p-0 text-decoration-none text-white`}
-                style={{ fontSize: 17, textShadow: '0 1px 3px rgba(30, 60, 150, 0.5)' }}
-              >
-                Past Events
-              </button>
-            </Nav.Link>
+          <Nav.Link className="ms-2" as="div">
+  <button
+    onClick={() => clickHandler('projects')}
+    style={{
+      fontSize: 17,
+      color: "#71c4fc",
+      backgroundColor: "transparent",
+      border: "1px solid #71c4fc",
+      borderRadius: 6,
+      padding: "4px 18px",
+      fontWeight: 500,
+      textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
+      cursor: "pointer",
+      transition: "background-color 0.2s, color 0.2s",
+      minWidth: 100,
+    }}
+    onMouseEnter={e => {
+      e.target.style.backgroundColor = "#71c4fc";
+      e.target.style.color = "#001321";
+    }}
+    onMouseLeave={e => {
+      e.target.style.backgroundColor = "transparent";
+      e.target.style.color = "#71c4fc";
+    }}
+    className="btn" // optionally keep bootstrap btn for baseline styles
+  >
+    Projects
+  </button>
+</Nav.Link>
 
-            <Nav.Link className={`text-light ms-3`} href="/about">About</Nav.Link>
-            <Nav.Link className={`text-light ms-3`} href="/activities">Activities</Nav.Link>
+            <Nav.Link className="ms-2" as="div">
+  <button
+    onClick={() => clickHandler('cfn')}
+    style={{
+      fontSize: 17,
+      color: "#71c4fc",
+      backgroundColor: "transparent",
+      border: "1px solid #71c4fc",
+      borderRadius: 6,
+      padding: "4px 18px",
+      fontWeight: 500,
+      textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
+      cursor: "pointer",
+      transition: "background-color 0.2s, color 0.2s",
+      minWidth: 100,
+    }}
+    onMouseEnter={e => {
+      e.target.style.backgroundColor = "#71c4fc";
+      e.target.style.color = "#001321";
+    }}
+    onMouseLeave={e => {
+      e.target.style.backgroundColor = "transparent";
+      e.target.style.color = "#71c4fc";
+    }}
+    className="btn" // optionally keep bootstrap btn for baseline styles
+  >
+    Create for NSUT
+  </button>
+</Nav.Link>
+
+            <Nav.Link className="ms-2" as="div">
+  <button
+    onClick={() => clickHandler('pastevents')}
+    style={{
+      fontSize: 17,
+      color: "#71c4fc",
+      backgroundColor: "transparent",
+      border: "1px solid #71c4fc",
+      borderRadius: 6,
+      padding: "4px 18px",
+      fontWeight: 500,
+      textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
+      cursor: "pointer",
+      transition: "background-color 0.2s, color 0.2s",
+      minWidth: 100,
+    }}
+    onMouseEnter={e => {
+      e.target.style.backgroundColor = "#71c4fc";
+      e.target.style.color = "#001321";
+    }}
+    onMouseLeave={e => {
+      e.target.style.backgroundColor = "transparent";
+      e.target.style.color = "#71c4fc";
+    }}
+    className="btn" 
+  >
+    Past Events
+  </button>
+</Nav.Link>
+
+
+            <Nav.Link
+  href="/about"
+  style={{
+    fontSize: 17,
+    color: "#71c4fc",
+    backgroundColor: "transparent",
+    border: "1px solid #71c4fc",
+    borderRadius: "6px",
+    padding: "4px 18px",
+    fontWeight: 500,
+    textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
+    marginLeft: 12,
+    cursor: "pointer",
+    transition: "background 0.2s, color 0.2s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.backgroundColor = "#71c4fc";
+    e.target.style.color = "#001321";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.backgroundColor = "transparent";
+    e.target.style.color = "#71c4fc";
+  }}
+>
+  About
+</Nav.Link>
+
+<Nav.Link
+  href="/activities"
+  style={{
+    fontSize: 17,
+    color: "#71c4fc",
+    backgroundColor: "transparent",
+    border: "1px solid #71c4fc",
+    borderRadius: "6px",
+    padding: "4px 18px",
+    fontWeight: 500,
+    textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
+    marginLeft: 12,
+    cursor: "pointer",
+    transition: "background 0.2s, color 0.2s",
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.backgroundColor = "#71c4fc";
+    e.target.style.color = "#001321";
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.backgroundColor = "transparent";
+    e.target.style.color = "#71c4fc";
+  }}
+>
+  Activities
+</Nav.Link>
+
 
           </Nav>
         </Navbar.Collapse>
