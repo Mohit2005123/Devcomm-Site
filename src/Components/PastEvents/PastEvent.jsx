@@ -119,7 +119,7 @@ const PastEvent = ({ id }) => {
     const titleStyle = {
         fontSize: '2.6rem',
         fontWeight: '700',
-        color: '#e2e8f0',
+        color: '#71C4FC',
         textAlign: 'center',
         marginBottom: '40px',
         letterSpacing: '-0.5px',

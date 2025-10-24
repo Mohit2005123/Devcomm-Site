@@ -27,6 +27,7 @@ import CFN from "../Components/CreateForNSUT/CFNCompiled";
 import Projects from '../Components/Projects/Projects';
 import PastEvent from '../Components/PastEvents/PastEvent';
 import Banner from '../Components/Banner/Banner';
+import InnovisionSection from '../Components/Innovision/Innovision';
 
 const Home = () => {
   const location = useLocation();
@@ -56,6 +57,7 @@ const Home = () => {
   return (
     <>
       <Banner id="banner" />
+      <InnovisionSection />
       <Projects id="projects" />
       <CFN id="cfn" />
       <PastEvent id="pastevents" />
