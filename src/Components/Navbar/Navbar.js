@@ -59,7 +59,7 @@ const Navbar1 = () => {
           color: '#e0e8f3',
           borderTop: '1.5px solid rgba(255,255,255,0.12)',
           boxShadow: '0 -2px 32px rgba(59,130,246,0.08)',
-          minHeight: 110,
+          minHeight: 50,
           marginTop: 0
       }}
     >
@@ -86,8 +86,6 @@ const Navbar1 = () => {
       fontSize: 17,
       color: "#71c4fc",
       backgroundColor: "transparent",
-      border: "1px solid #71c4fc",
-      borderRadius: 6,
       padding: "4px 18px",
       fontWeight: 500,
       textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
@@ -98,10 +96,12 @@ const Navbar1 = () => {
     onMouseEnter={e => {
       e.target.style.backgroundColor = "#71c4fc";
       e.target.style.color = "#001321";
+      e.target.style.borderRadius = "600px";
     }}
     onMouseLeave={e => {
       e.target.style.backgroundColor = "transparent";
       e.target.style.color = "#71c4fc";
+      e.target.style.borderRadius = "600px";
     }}
     className="btn" // optionally keep bootstrap btn for baseline styles
   >
@@ -116,8 +116,6 @@ const Navbar1 = () => {
       fontSize: 17,
       color: "#71c4fc",
       backgroundColor: "transparent",
-      border: "1px solid #71c4fc",
-      borderRadius: 6,
       padding: "4px 18px",
       fontWeight: 500,
       textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
@@ -128,10 +126,13 @@ const Navbar1 = () => {
     onMouseEnter={e => {
       e.target.style.backgroundColor = "#71c4fc";
       e.target.style.color = "#001321";
+      e.target.style.borderRadius = "600px";
     }}
     onMouseLeave={e => {
       e.target.style.backgroundColor = "transparent";
       e.target.style.color = "#71c4fc";
+      e.target.style.borderRadius = "600px";
+      
     }}
     className="btn" // optionally keep bootstrap btn for baseline styles
   >
@@ -146,8 +147,6 @@ const Navbar1 = () => {
       fontSize: 17,
       color: "#71c4fc",
       backgroundColor: "transparent",
-      border: "1px solid #71c4fc",
-      borderRadius: 6,
       padding: "4px 18px",
       fontWeight: 500,
       textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
@@ -158,10 +157,12 @@ const Navbar1 = () => {
     onMouseEnter={e => {
       e.target.style.backgroundColor = "#71c4fc";
       e.target.style.color = "#001321";
+      e.target.style.borderRadius = "600px";
     }}
     onMouseLeave={e => {
       e.target.style.backgroundColor = "transparent";
       e.target.style.color = "#71c4fc";
+      e.target.style.borderRadius = "600px";
     }}
     className="btn" 
   >
@@ -176,8 +177,6 @@ const Navbar1 = () => {
     fontSize: 17,
     color: "#71c4fc",
     backgroundColor: "transparent",
-    border: "1px solid #71c4fc",
-    borderRadius: "6px",
     padding: "4px 18px",
     fontWeight: 500,
     textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
@@ -188,10 +187,12 @@ const Navbar1 = () => {
   onMouseEnter={(e) => {
     e.target.style.backgroundColor = "#71c4fc";
     e.target.style.color = "#001321";
+    e.target.style.borderRadius = "600px";
   }}
   onMouseLeave={(e) => {
     e.target.style.backgroundColor = "transparent";
     e.target.style.color = "#71c4fc";
+    e.target.style.borderRadius = "600px";
   }}
 >
   About
@@ -203,8 +204,6 @@ const Navbar1 = () => {
     fontSize: 17,
     color: "#71c4fc",
     backgroundColor: "transparent",
-    border: "1px solid #71c4fc",
-    borderRadius: "6px",
     padding: "4px 18px",
     fontWeight: 500,
     textShadow: "0 1px 3px rgba(30, 60, 150, 0.5)",
@@ -215,10 +214,12 @@ const Navbar1 = () => {
   onMouseEnter={(e) => {
     e.target.style.backgroundColor = "#71c4fc";
     e.target.style.color = "#001321";
+    e.target.style.borderRadius = "600px";
   }}
   onMouseLeave={(e) => {
     e.target.style.backgroundColor = "transparent";
     e.target.style.color = "#71c4fc";
+    e.target.style.borderRadius = "600px";
   }}
 >
   Activities

@@ -62,7 +62,7 @@ const Footer = () => {
         style={{
           fontFamily: 'Poppins, sans-serif',
           background: 'rgba(6,11,34,0.92)', // Same as page, slightly frosted for elegance
-          backdropFilter: 'blur(2px)', // Glassmorphism
+          backdropFilter: 'blur(10px)', // Glassmorphism
           color: '#e0e8f3',
           borderTop: '1.5px solid rgba(255,255,255,0.12)',
           boxShadow: '0 -2px 32px rgba(59,130,246,0.08)',
@@ -97,7 +97,7 @@ const Footer = () => {
                   border: '1px solid rgba(255,255,255,0.11)'
                 }}
               >
-                <img src={facebookIcon} alt="Facebook" style={{ width: 24, height: 24, filter: 'drop-shadow(0 0 4px #52e0e0)' }} />
+                <img src={facebookIcon} alt="Facebook" style={{ width: 24, height: 24 }} />
               </a>
               <a href="https://www.instagram.com/devcomm.nsut/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
                 className="shadow-sm rounded-circle"
@@ -112,7 +112,7 @@ const Footer = () => {
                   border: '1px solid rgba(255,255,255,0.11)'
                 }}
               >
-                <img src={instagramIcon} alt="Instagram" style={{ width: 24, height: 24, filter: 'drop-shadow(0 0 4px #e954a3)' }} />
+                <img src={instagramIcon} alt="Instagram" style={{ width: 24, height: 24 }} />
               </a>
               <a href="https://www.linkedin.com/company/devcommnsut" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
                 className="shadow-sm rounded-circle"
@@ -127,12 +127,12 @@ const Footer = () => {
                   border: '1px solid rgba(255,255,255,0.11)'
                 }}
               >
-                <img src={linkedinIcon} alt="LinkedIn" style={{ width: 24, height: 24, filter: 'drop-shadow(0 0 4px #52e0e0)' }} />
+                <img src={linkedinIcon} alt="LinkedIn" style={{ width: 24, height: 24}} />
               </a>
             </div>
             <div className="col-12 col-md-4 text-md-end text-center mt-2 mt-md-0">
               <h6 style={{ color: '#f1f5f9', fontWeight: 600 }}>
-                Made with <span style={{ color: '#ef4444' }}>❤️</span> by <span style={{ color: '#38bdf8', fontWeight: 700 }}>DevComm</span>
+                Made by <span style={{ color: '#38bdf8', fontWeight: 700 }}>DevComm</span>
               </h6>
               <small style={{ color: '#8b9dbc', letterSpacing: '.5px' }}>
                 © {new Date().getFullYear()} DevComm — All rights reserved
