@@ -1,0 +1,67 @@
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #0a1420;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.3s ease-out;
+    
+  }
+  
+  .splash-logo {
+    width: 200px;
+    animation: fadeInGrow 2.5s ease-out forwards;
+  }
+  
+
+  @keyframes fadeInGrow {
+    0% {
+      opacity: 0;
+      filter: drop-shadow(0 0 0px transparent);
+      transform: scale(0.9);
+    }
+    40% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+    60% {
+      filter: drop-shadow(0 0 10px #71c4fc);
+    }
+    80% {
+      filter: drop-shadow(0 0 20px #71c4fc) drop-shadow(0 0 35px #71c4fc);
+    }
+    100% {
+      filter: drop-shadow(0 0 25px #71c4fc) drop-shadow(0 0 50px #71c4fc);
+    }
+  }
+  
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
